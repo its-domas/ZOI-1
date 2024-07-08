@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 price = 0; // Set to zero if null
             }
 
-            document.getElementById('price').innerText = `$${price.toFixed(4)}`;
+            document.getElementById('price').innerText = `$${price.toFixed(5)}`;
         } catch (error) {
             console.error('There was a problem with the fetch operation:', error);
             document.getElementById('price').innerText = 'Failed to load data';
