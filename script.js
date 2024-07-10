@@ -139,19 +139,6 @@ document.addEventListener("DOMContentLoaded", function() {
         audio.play();
     });
 });
-
-var typed = new Typed(".typed-words", {
-    strings: ["Hello I am a mayor representing Anthropos City - the first virtual city in the world. Our goal is to provide tools to help create the new mentally and physically strong generation."],
-    typeSpeed: 40,
-    backSpeed: 50,
-    backDelay: 800,
-    startDelay: 500,
-    delay: 400,
-    loop: false,
-    showCursor: false,
-    cursorChar: "|",
-    attr: null,
-});
   
 var typed2 = new Typed(".typed-words2", {
     strings: ["Welcome to Anthropos City"],
