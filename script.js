@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 price = 0; // Set to zero if null
             }
 
-            document.getElementById('price').innerText = `$${price.toFixed(5)}`;
+            document.getElementById('price').innerText = `$${price.toFixed(4)}`;
         } catch (error) {
             console.error('There was a problem with the fetch operation:', error);
             document.getElementById('price').innerText = 'Failed to load data';
@@ -138,6 +138,19 @@ document.addEventListener("DOMContentLoaded", function() {
         video.play();
         audio.play();
     });
+});
+
+var typed = new Typed(".typed-words", {
+    strings: ["Hello I am a mayor representing Anthropos City - the first virtual city in the world. Our goal is to provide tools to help create the new mentally and physically strong generation."],
+    typeSpeed: 40,
+    backSpeed: 50,
+    backDelay: 800,
+    startDelay: 500,
+    delay: 400,
+    loop: false,
+    showCursor: false,
+    cursorChar: "|",
+    attr: null,
 });
   
 var typed2 = new Typed(".typed-words2", {
