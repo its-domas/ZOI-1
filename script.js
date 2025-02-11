@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Compute market cap as totalSupply * price
             let computedMcap = Number(totalSupply) * Number(price);
             console.log("Computed Market Cap:", computedMcap);
-            document.getElementById("mcap").innerText = `$${computedMcap.toFixed(2)}`;
+            document.getElementById("mcap").innerText = `$${computedMcap.toFixed(0)}`;
         } catch (error) {
             console.error("Fetch error:", error);
             document.getElementById("mcap").innerText = "Failed to load data";
