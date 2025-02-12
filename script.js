@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
             const response = await fetch(urlpoolprice, {
                 method: "GET",
+                mode: "cors",
                 headers: {
                     accept: "application/json",
                     "x-api-key": apiKey,
@@ -37,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
             const response = await fetch(urltokenprice, {
                 method: "GET",
+                mode: "cors",
                 headers: {
                     accept: "application/json",
                     "x-api-key": apiKey,
@@ -63,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
             const response = await fetch(urltokeninfo, {
                 method: "GET",
+                mode: "cors",
                 headers: {
                     accept: "application/json",
                     "x-api-key": apiKey,
@@ -88,6 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
             const response = await fetch(urltokenprice, {
                 method: "GET",
+                mode: "cors",
                 headers: {
                     accept: "application/json",
                     "x-api-key": apiKey,
